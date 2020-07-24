@@ -1,0 +1,324 @@
+
+
+1)../../../assets/World/amalfi1.webp
+
+Latitude :	40.633354
+Longitude:	14.602745
+
+
+2)../../../assets/World/Antarctica.webp
+
+Latitude 	Longitude
+-75.250973 	-0.071389
+
+3)../../../assets/World/Arashiyama-Bamboo-Forest-Japan.webp
+
+Latitude	35.009392
+Longitude	135.667007
+
+4)../../../assets/World/Bagan-Myanmar.webp
+
+ Latitude :54.10014, Longitude 77.66462
+
+5)../../../assets/World/BALI.jpg
+
+
+
+Latitude	-8.409518
+Longitude	115.188919
+
+
+6)../../../assets/World/BALI-INDONESIA.jpg
+
+
+
+Latitude	-8.409518
+Longitude	115.188919
+
+7)../../../assets/World/BANGKOK.webp
+
+Latitude	13.736717
+Longitude	100.523186
+
+8)../../../assets/World/BARCELONA-SPAIN.jpg
+
+
+Latitude	41.390205
+Longitude	2.154007
+
+9)../../../assets/World/Benagil-Sea-Cave-Algarve-Portugal.jpg
+
+Latitude	37.087276
+Longitude	-8.425015
+
+
+10)../../../assets/World/Blue-Lagoon-Island.webp
+
+Latitude	63.880238
+Longitude	-22.450562
+
+11)../../../assets/World/BORA-BORA.jpg
+
+Latitude	-16.499701
+Longitude	-151.770538
+
+12)../../../assets/World/BORA-island-France.jpg
+
+
+Latitude	-16.499701
+Longitude	-151.770538
+
+
+13)../../../assets/World/BRITISH-VIRGIN-ISLANDS.jpg
+
+
+Latitude	18.436539
+Longitude	-64.618103
+
+14)../../../assets/World/Cambodia-Angkor-Wat.jpg
+Latitude	13.411593
+Longitude	103.867416
+
+15)../../../assets/World/Charmonix.webp
+Latitude	45.832119
+Longitude	6.865575
+
+16)../../../assets/World/Cliffs-of-Moher-Ireland.jpg
+
+Latitude	52.970490
+Longitude	-9.419951
+
+17)../../../assets/World/Colosseum_in_Rome.jpg
+
+Latitude	41.890251
+Longitude	12.492373
+
+18)../../../assets/World/COSTA-RICA-USA.jpg
+
+Latitude	9.934739
+Longitude	-84.087502
+
+19)../../../assets/World/DUBAI.jpg
+
+Latitude	25.266666
+Longitude	55.316666
+
+20)../../../assets/World/EGYPT-PYRAMIDS.jpg
+
+Latitude	29.976480
+Longitude	31.131302
+
+21)../../../assets/World/FLORENCE.jpg
+Latitude	43.769562
+Longitude	11.255814
+
+
+22)../../../assets/World/grand_canyon-arizona-usa.jpg
+
+Latitude	36.056595
+Longitude	-112.125092
+
+23)../../../assets/World/Grand-Canyon.jpg
+
+Latitude	36.056595
+Longitude	-112.125092
+
+24)../../../assets/World/GREAT-BARRIER-REEF-AUSTRALIA.jpg
+
+Latitude	-18.156290
+Longitude	147.485962
+
+25)../../../assets/World/Great-Barrier-Reef-Australia1.jpg
+
+Latitude	-18.156290
+Longitude	147.485962
+
+26)../../../assets/World/HONG-KONG.jpg
+
+Latitude	22.302711
+Longitude	114.177216
+
+27)../../../assets/World/ICELAND-MOUNT KIRKJUFELL.jpg
+
+Latitude	64.128288
+Longitude	-21.827774
+
+28)../../../assets/World/Italy-Amalfi.jpg
+
+Latitude	40.633354
+Longitude	14.602745
+
+29)../../../assets/World/Kauai-Hawaii-USA.webp
+
+Latitude	22.108543
+Longitude	-159.496765
+
+30)../../../assets/World/Kolkata-Kali.jpg
+
+Latitude	22.500914
+Longitude	88.394936
+
+31)../../../assets/World/LONDON.jpg
+Latitude	51.509865
+Longitude	-0.118092
+
+32)../../../assets/World/Machu-Pichu-Peru.jpg
+
+Latitude	-13.163068
+Longitude	-72.545128
+
+33)../../../assets/World/Machu-Pichu-Peru1.jpeg
+
+Latitude	-13.163068
+Longitude	-72.545128
+
+
+34)../../../assets/World/MALDIVES.jpg
+
+Latitude	1.924992
+Longitude	73.399658
+
+35)../../../assets/World/Maldives-1.webp
+
+Latitude	1.924992
+Longitude	73.399658
+
+36)../../../assets/World/Mauritius-Island.jpg
+
+Latitude & Longitude (Decimal Degrees):	-19.7025 , 63.427222222222
+
+37)../../../assets/World/Milford-Sound-New-Zealand.webp
+
+Latitude	-44.648281
+Longitude	167.905777
+
+38)../../../assets/World/NEWYORK-USA.jpg
+
+Latitude	40.730610
+Longitude	-73.935242
+
+39)../../../assets/World/NEW-ZEALAND.jpg
+
+Latitude	-36.848461
+Longitude	174.763336
+
+40)../../../assets/World/NIAGARA-FALLS-Canada.jpg
+
+Latitude	43.060001
+Longitude	-79.106667
+
+
+41)../../../assets/World/Northern-Lights-Aurora Borelis.webp
+
+Latitude & Longitude (Decimal Degrees):	58.592777777778 , -134.86277777778
+
+
+44.012893
+-79.441833
+
+42)../../../assets/World/PAMUKALLE-TURKEY.jpg
+
+Decimal latitude and longitude coordinates for Pamukkale (Turkey): 37.91644, 29.11729
+
+43)../../../assets/World/Pamukkale-Turkey.webp
+
+Decimal latitude and longitude coordinates for Pamukkale (Turkey): 37.91644, 29.11729
+
+44)../../../assets/World/PARIS.jpg
+
+Latitude	48.864716
+Longitude	2.349014
+
+45)../../../assets/World/PAris-France.webp
+
+Latitude	48.864716
+Longitude	2.349014
+
+46)../../../assets/World/Petra-Jordan.webp
+
+Latitude	30.328960
+Longitude	35.444832
+
+47)../../../assets/World/PHUKET-THAILAND.jpg
+
+Latitude	7.878978
+Longitude	98.398392
+
+48)../../../assets/World/Plitvice-Lakes-National-Park-Croatia.jpg
+
+Latitude	44.870750
+Longitude	15.600487
+
+49)../../../assets/World/PRAGUE.jpg
+
+Latitude	50.073658
+Longitude	14.418540
+
+50)../../../assets/World/Pyramids-of-Giza-Egypt.webp
+
+Latitude	29.976480
+Longitude	31.131302
+
+51)../../../assets/World/SANTORINI.jpg
+Latitude	36.393154
+Longitude	25.461510
+
+52)../../../assets/World/Santorini-Greece.webp
+
+Latitude	36.393154
+Longitude	25.461510
+
+53)../../../assets/World/Santorini-Greece.jpg
+
+Latitude	36.393154
+Longitude	25.461510
+
+54)../../../assets/World/Siem-Reap-Cambodia.jpg
+
+Latitude	13.364047
+Longitude	103.860313
+
+55)../../../assets/World/Socotra-Yemen.webp
+
+Latitude	12.463420
+Longitude	53.823738
+
+56)../../../assets/World/SYDNEY.jpg
+
+
+Latitude	-33.865143
+Longitude	151.209900
+
+57)../../../assets/World/SYDNEY1.jpg
+
+Latitude	-33.865143
+Longitude	151.209900
+
+
+58)../../../assets/World/Torres-Del-Paine-Patagonia-Chile.webp
+
+Latitude	-51.000000
+Longitude	-73.000000
+
+59)../../../assets/World/Uyuni-Salt-Flats-Bolivia.jpg
+
+
+Latitude	-20.266562
+Longitude	-67.620552
+
+60)../../../assets/World/Venice-Italy.jpg
+
+Latitude	45.438759
+Longitude	12.327145
+
+61)../../../assets/World/Zhangjiajie-National-Forest-China.webp
+
+Latitude	29.117001
+Longitude	110.478996
+
+62)../../../assets/World/Zhangye-Danxia-China.jpg
+
+Latitude	38.913769
+Longitude	100.133240
+
+63)../../../assets/World/

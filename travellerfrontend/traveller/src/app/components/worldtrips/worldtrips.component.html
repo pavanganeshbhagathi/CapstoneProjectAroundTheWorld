@@ -1,0 +1,254 @@
+<!--
+<app-header></app-header>
+
+
+
+<div class="main-container">
+ <div class="music-buttons">
+
+ <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              SubType
+          </mat-panel-title>
+          <mat-panel-description>
+            Search for SubType like Hills,park,ect,,.
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('hills')" aria-label="Show an example snack-bar">
+         Hills
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)=" openSubtype('Historical')" aria-label="Show an example snack-bar">
+          Historical
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('temple')" aria-label="Show an example snack-bar">
+         Temple
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('Park')" aria-label="Show an example snack-bar">
+          Park
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('HolidayTrip')" aria-label="Show an example snack-bar">
+         Opening HolidayTrip
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('forest')" aria-label="Show an example snack-bar">
+          Forest
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('island')" aria-label="Show an example snack-bar">
+        Island
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('ancient')" aria-label="Show an example snack-bar">
+         ancient
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('sea')" aria-label="Show an example snack-bar">
+         sea
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openSubtype('waterfalls')" aria-label="Show an example snack-bar">
+         waterfalls
+        </button>
+
+      </mat-expansion-panel>
+
+
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Seasons
+          </mat-panel-title>
+          <mat-panel-description>
+            Saerch By Seasons like winter etc,,. {{panelOpenState ? 'open' : 'closed'}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openSeasons('winter')" aria-label="Show an example snack-bar">
+         Winter
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openSeasons('summer')" aria-label="Show an example snack-bar">
+          Summer
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openSeasons('monsoon')" aria-label="Show an example snack-bar">
+          Monsoon
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openSeasons('year')" aria-label="Show an example snack-bar">
+          Yearly
+        </button>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Rating
+          </mat-panel-title>
+          <mat-panel-description>
+           Search By Rating
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openRating(1)" aria-label="Show an example snack-bar">
+         One
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openRating(2)" aria-label="Show an example snack-bar">
+         Two
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openRating(3)" aria-label="Show an example snack-bar">
+         Three
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openRating(4)" aria-label="Show an example snack-bar">
+         Four
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="accent" (click)="openRating(5)" aria-label="Show an example snack-bar">
+         Five
+        </button>
+
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Package
+          </mat-panel-title>
+          <mat-panel-description>
+            Search for packages {{panelOpenState ? 'open' : 'closed'}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(1000,10000)" aria-label="Show an example snack-bar">
+         1,000-10,000
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(20000,30000)" aria-label="Show an example snack-bar">
+         20,000-30,000
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(30000,40000)" aria-label="Show an example snack-bar">
+         30,000-40,000
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(40000,50000)" aria-label="Show an example snack-bar">
+         40,000-50,000
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(50000,100000)" aria-label="Show an example snack-bar">
+         50,000-100,000
+        </button>
+        <mat-divider></mat-divider>
+        <button  mat-button color="warn" (click)="openPackage(100000,200000)" aria-label="Show an example snack-bar">
+         100,000-200,000
+        </button>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
+
+
+
+
+  </div>
+
+  <div class="music-outlet">
+     <router-outlet name="worldtripsOutlet"></router-outlet>
+  </div>
+
+</div>
+
+
+<app-footer></app-footer>
+
+-->
+
+<app-header></app-header>
+<!-- Mat Menu -->
+<div class="maincontainer">
+  <button mat-raised-button color="accent" [matMenuTriggerFor]="travel">Search by Category</button>
+  <mat-menu #travel="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="SubType">SubType</button>
+    <button mat-menu-item [matMenuTriggerFor]="Seasons">Seasons</button>
+    <button mat-menu-item [matMenuTriggerFor]="Rating">Rating</button>
+    <button mat-menu-item [matMenuTriggerFor]="Package">Package</button>
+  </mat-menu>
+
+  <mat-menu #SubType="matMenu">
+    <button mat-menu-item color="accent" (click)="openSubtype('hills')"
+      aria-label="Show an example snack-bar">Hills</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('Historical')"
+      aria-label="Show an example snack-bar">Historical</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('temple')"
+      aria-label="Show an example snack-bar">Temple</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('Park')"
+      aria-label="Show an example snack-bar">Park</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('HolidayTrip')"
+      aria-label="Show an example snack-bar">Opening HolidayTrip</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('forest')"
+      aria-label="Show an example snack-bar">Forest</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('island')"
+      aria-label="Show an example snack-bar">Island</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('ancient')"
+      aria-label="Show an example snack-bar">ancient</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('sea')"
+      aria-label="Show an example snack-bar">Sea</button>
+    <button mat-menu-item color="accent" (click)="openSubtype('waterfalls')"
+      aria-label="Show an example snack-bar">waterfalls</button>
+  </mat-menu>
+
+  <mat-menu #Seasons="matMenu">
+    <button mat-menu-item color="warn" (click)="openSeasons('winter')"
+      aria-label="Show an example snack-bar">Winter</button>
+    <button mat-menu-item color="warn" (click)="openSeasons('summer')"
+      aria-label="Show an example snack-bar">Summer</button>
+    <button mat-menu-item color="warn" (click)="openSeasons('monsoon')"
+      aria-label="Show an example snack-bar">Monsoon</button>
+    <button mat-menu-item color="warn" (click)="openSeasons('year')"
+      aria-label="Show an example snack-bar">Yearly</button>
+  </mat-menu>
+
+  <mat-menu #Rating="matMenu">
+    <button mat-menu-item color="accent" (click)="openRating(1)" aria-label="Show an example snack-bar">One</button>
+    <button mat-menu-item color="accent" (click)="openRating(2)" aria-label="Show an example snack-bar">Two</button>
+    <button mat-menu-item color="accent" (click)="openRating(3)" aria-label="Show an example snack-bar">Three</button>
+    <button mat-menu-item color="accent" (click)="openRating(4)" aria-label="Show an example snack-bar">Four</button>
+    <button mat-menu-item color="accent" (click)="openRating(5)" aria-label="Show an example snack-bar">Five</button>
+  </mat-menu>
+
+  <mat-menu #Package="matMenu">
+    <button mat-menu-item color="warn" (click)="openPackage(1000,10000)"
+      aria-label="Show an example snack-bar">1,000-10,000</button>
+    <button mat-menu-item color="warn" (click)="openPackage(20000,30000)"
+      aria-label="Show an example snack-bar">20,000-30,000</button>
+    <button mat-menu-item color="warn" (click)="openPackage(30000,40000)"
+      aria-label="Show an example snack-bar">30,000-40,000</button>
+    <button mat-menu-item color="warn" (click)="openPackage(40000,50000)"
+      aria-label="Show an example snack-bar">40,000-50,000</button>
+    <button mat-menu-item color="warn" (click)="openPackage(50000,100000)"
+      aria-label="Show an example snack-bar">50,000-100,000</button>
+    <button mat-menu-item color="warn" (click)="openPackage(100000,200000)"
+      aria-label="Show an example snack-bar">100,000-200,000</button>
+  </mat-menu>
+
+</div>
+
+<div class="music-outlet">
+  <router-outlet name="worldtripsOutlet"></router-outlet>
+</div>
+
+
+<app-footer></app-footer>

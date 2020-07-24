@@ -1,0 +1,416 @@
+
+
+1)../../../assets/India/AGRA.jpg
+
+Latitude	27.176670
+Longitude	78.008072
+
+
+
+2)../../../assets/India/AHMEDABAD.jpg
+
+
+Latitude	23.033863
+Longitude	72.585022
+
+3)../../../assets/India/ALLEPPEY.jpg
+
+
+Latitude	9.498067
+Longitude	76.338844
+
+4)../../../assets/India/ALMORA.jpg
+
+Latitude	29.594189
+Longitude	79.653893
+
+5)../../../assets/India/AMRITSAR.jpg
+
+Latitude	31.633980
+Longitude	74.872261
+
+6)../../../assets/India/ANDAMAN-NICOBAR-ISLANDS.jpg
+
+Latitude	11.623377
+Longitude	92.726486
+///////////////////////////////////////////////////////////
+
+
+7)../../../../assets/India/AULI.jpg
+
+Latitude	30.486928
+Longitude	78.241723
+
+
+
+
+8)../../../assets/India/AURANGABAD.jpg
+
+Latitude	19.901054
+Longitude	75.352478
+
+9)../../../assets/India/BANGALORE.jpg
+
+Latitude	12.972442
+Longitude	77.580643
+
+10)../../../assets/India/BODH-GAYA.jpg
+
+Latitude	24.696135
+Longitude	84.986954
+
+11)../../../assets/India/CHANDIGARH.jpg
+
+Latitude	30.741482
+Longitude	76.768066
+
+12)../../../assets/India/CHERRAPUNJEE.jpg
+
+Latitude	25.277685
+Longitude	91.726486
+
+13)../../../assets/India/COORG.jpg
+
+Latitude	12.467000
+Longitude	75.967003
+
+14)../../../assets/India/CORBETT-NATIONAL-PARK.jpg
+
+
+Latitude	29.548599
+Longitude	78.935303
+
+15)../../../assets/India/DALHOUSIE.jpg"
+"placeImageUrl":../../../assets/India/DALHOUSIE.jpg",
+"placeLongitude": "32.539555",
+"placeLatitude": "75.970955",
+
+16)../../../assets/India/DARJEELING.jpg
+
+
+"placeImageUrl":"../../../assets/India/DARJEELING.jpg,
+"placeLongitude": "88.262672",
+"placeLatitude": "27.036007",
+
+
+17)../../../assets/India/DELHI.jpg
+
+Latitude	28.644800
+Longitude	77.216721
+
+"placeImageUrl":../../../assets/India/DELHI.jpg",
+"placeLongitude": "28.644800",
+"placeLatitude": "77.216721",
+
+18)../../../assets/India/GANGTOK.jpg
+
+Latitude	27.338936
+Longitude	88.606506
+
+"placeImageUrl":../../../assets/India/GANGTOK.jpg",
+"placeLongitude": "88.606506",
+"placeLatitude": "27.338936",
+19)
+
+
+Latitude	15.496777
+Longitude	73.827827
+
+"placeImageUrl":"../../../assets/India/GOA.jpg",
+"placeLongitude": "88.606506",
+"placeLatitude": "27.338936",
+
+20)../../../assets/India/GOKARNA.jpg
+
+Latitude	24.039310
+Longitude	88.114868
+
+21)../../../assets/India/GOKARNA.jpg
+
+Latitude	24.039310
+Longitude	88.114868
+
+22)../../../assets/India/HAMPI.jpg
+
+Latitude	15.334022
+Longitude	76.468536
+
+23)../../../assets/India/HAMPI.jpg
+
+Latitude	15.334022
+Longitude	76.468536
+
+24)../../../assets/India/HYDERABAD.jpg
+
+Latitude	17.387140
+Longitude	78.491684
+
+25)../../../assets/India/JAIPUR.jpg
+
+Latitude	26.922070
+Longitude	75.778885
+
+26)../../../assets/India/JAISALMER.jpg
+
+Latitude	26.911661
+Longitude	70.922928
+
+27)../../../assets/India/JODHPUR.jpg
+
+Latitude	26.263863
+Longitude	73.008957
+
+28)../../../assets/India/Kanha National Park.jpg
+
+Latitude	22.426605
+Longitude	80.109558
+
+29)../../../assets/India/KANYAKUMARI.jpg
+
+Latitude	8.088306
+Longitude	77.538452
+
+30)../../../assets/India/KASOL.jpg
+
+32.009999
+77.314963
+
+31)../../../assets/India/KHAJURAHO.jpg
+
+Latitude	26.724545
+Longitude	72.904716
+
+32)../../../assets/India/KOCHI.jpg
+
+Latitude	9.931233
+Longitude	76.267303
+
+33)../../../assets/India/KODAIKANAL.jpg
+
+Latitude	11.127123
+Longitude	78.656891
+
+34)../../../assets/India/KONARK.jpg
+
+Latitude	19.913652
+Longitude	85.977280
+
+35)../../../assets/India/KUMARAKOM.jpg
+
+
+Latitude	9.618521
+Longitude	76.438469
+
+36)../../../assets/India/KUTCH.jpg
+
+Latitude	23.733732
+Longitude	69.859741
+
+37)../../../assets/India/LADAKH.jpg
+
+Latitude	34.152588
+Longitude	77.577049
+
+38)../../../assets/India/LAKSHADWEEP-ISLANDS.jpg
+
+
+
+10.925833
+72.288333
+
+39)../../../assets/India/LUCKNOW.jpg
+
+Latitude	26.850000
+Longitude	80.949997
+
+40)../../../assets/India/MADURAI.jpg
+
+Latitude	9.939093
+Longitude	78.121719
+
+41)../../../assets/India/MAHABALESHWAR.jpg
+
+Latitude	17.921721
+Longitude	73.655602
+
+42)../../../assets/India/MANALI.jpg
+
+Latitude	32.239632
+Longitude	77.188713
+
+43)../../../assets/India/Marina beach.jpg
+
+Latitude	18.954269
+Longitude	72.811501
+
+44)../../../assets/India/Mashobra-Simla.jpg
+
+
+Latitude	32.084206
+Longitude	77.571167
+
+45)../../../assets/India/MATHURA.jpg
+
+Latitude	27.492413
+Longitude	77.673676
+
+46)../../../assets/India/MCLEODGANJ.jpg
+
+Latitude	32.219044
+Longitude	76.323402
+
+47)../../../assets/India/MOUNT-ABU.jpg
+
+Latitude	24.531445
+Longitude	72.733360
+
+48)../../../assets/India/MUMBAI.jpg
+
+Latitude	19.076090
+Longitude	72.877426
+
+49)../../../assets/India/MUMBAI.jpg
+
+
+Latitude	19.076090
+Longitude	72.877426
+
+50)../../../assets/India/MUNNAR.jpg
+
+Latitude	10.089167
+Longitude	77.059723
+
+missing)../../../assets/India/MYSORE.jpg
+
+Latitude	12.311827
+Longitude	76.652985
+
+51)../../assets/India/MUSSOORIE.jpg
+
+
+Latitude	30.459909
+Longitude	78.06639
+
+52)../../../assets/India/NAINITAL.jpg
+
+Latitude	29.380304
+Longitude	79.463570
+
+
+53)../../../assets/India/OOTY.jpg
+
+Latitude	11.410000
+Longitude	76.699997
+
+54)../../../assets/India/PONDICHERRY.jpg
+
+
+Latitude	11.916064
+Longitude	79.812325
+
+55)../../../assets/India/PUNE.jpg
+
+Latitude	18.516726
+Longitude	73.856255
+
+56)../../../assets/India/PURI.jpg
+
+Latitude	19.817743
+Longitude	85.828629
+
+57)../../../assets/India/PUSHKAR.jpg
+
+Latitude	Longitude
+26.489679	74.550941
+
+58)../../../assets/India/RAMESWARAM.jpg
+
+Latitude	9.292478
+Longitude	79.309135
+
+59)../../../assets/India/RANTHAMBORE.jpg
+
+Latitude	25.983334
+Longitude	76.366669
+
+60)../../../assets/India/RISHIKESH.jpg
+
+Latitude	30.087160
+Longitude	78.268112
+
+61)../../../assets/India/SANCHI.jpg
+
+Latitude	23.473324
+Longitude	77.947998
+
+62)../../../assets/India/SHILLONG.jpg
+
+Latitude	25.487389
+Longitude	90.412735
+
+63)../../../assets/India/SHIRDI.jpg
+
+Latitude	19.712702
+Longitude	74.483337
+
+64)../../../assets/India/SRINAGAR.jpg
+
+Latitude	34.083656
+Longitude	74.797371
+
+65)../../../assets/India/THEKKADY.jpg
+
+
+Latitude	9.606325
+Longitude	77.169701
+
+66)../../../assets/India/TIRUPATI.jpg
+
+Latitude	13.629065
+Longitude	79.424446
+
+67)../../../assets/India/TRIVANDRUM.jpg
+
+Latitude	8.524139
+Longitude	76.936638
+
+
+68)../../../assets/India/UDAIPUR.jpg
+
+Latitude	24.571270
+Longitude	73.691544
+
+69)../../../assets/India/VAISHNO-DEVI.jpg
+
+
+20.610359
+72.96604
+
+70)../../../assets/India/VARANASI.jpg
+
+Latitude	25.321684
+Longitude	82.987289
+
+71)../../../assets/India/VISAKHAPATNAM.jpg
+
+
+Latitude	17.690474
+Longitude	83.231049
+
+72)../../../assets/India/
+
+73)../../assets/India/
+
+74)../../../assets/India/
+
+
+75)../../../../assets/India/
+
+
+76)../../../assets/India/
+
+
+77)../../../assets/India/
+
+
+78)../../../assets/India/

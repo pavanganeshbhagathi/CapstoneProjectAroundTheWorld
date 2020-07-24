@@ -1,0 +1,67 @@
+<div class="gallery">
+
+<!--<video autoplay muted loop id="myVideo">
+  <source src="../../../assets/bg.mp4" type="video/mp4">
+</video>-->
+
+
+
+    <div class="row">
+
+      <div class="col-md-8">
+        <!--<ngb-carousel *ngIf="images">-->
+        <ngb-carousel>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S0.jpg" alt="">
+
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S1.jpg" alt="">
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S2.jpg" alt="">
+
+          </ng-template>
+
+          <ng-template ngbSlide>
+            <img src="../../../assets/S8.jpg" alt="">
+            <!--<div class="carousel-caption">
+               <h3>And wrap after last slide.</h3>
+               <p>This carousel uses customized default values.</p>
+             </div>-->
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S5.jpg" alt="">
+
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S6.jpg" alt="">
+
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="../../../assets/S7.jpg" alt="">
+
+          </ng-template>
+
+        </ngb-carousel>
+
+      </div>
+    </div>
+
+
+
+  <mat-card class="card" *ngFor="let places of allplaces">
+    <mat-card-header>
+      <mat-card-title>{{places.placeName}}</mat-card-title>
+
+    </mat-card-header>
+
+    <img mat-card-image src="{{places.placeImageUrl}}" alt="MusicalInstrument">
+    <mat-card-content>
+
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button color="accent" (click)="onClick(places.placeId)">View Details</button>
+    </mat-card-actions>
+  </mat-card>
+

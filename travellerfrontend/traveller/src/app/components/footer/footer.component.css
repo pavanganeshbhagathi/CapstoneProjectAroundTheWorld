@@ -1,0 +1,31 @@
+
+mat-card {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #F8F8FF;
+  margin-bottom: 1px ;
+  border:2px solid green;
+
+}
+img {
+  margin-top: -0.5em;
+  height: 2.2em;
+  width: 2.2em;
+}
+
+.love{
+   margin-top: -0.5em;
+   height: 1em;
+   width: 1em;
+}
+
+p{
+  font-size: 1em;
+  font-family: 'Quicksand',
+  sans-serif;
+  font-family: 'Zilla Slab',
+  serif;
+  letter-spacing: 1px;
+}
