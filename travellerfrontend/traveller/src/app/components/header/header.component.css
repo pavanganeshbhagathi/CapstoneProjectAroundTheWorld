@@ -3,6 +3,7 @@
 a {
   text-decoration: none;
   color: var(--text-gray);
+  cursor: pointer;
 }
 ul {
   list-style-type: none;

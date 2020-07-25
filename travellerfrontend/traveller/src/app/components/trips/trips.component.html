@@ -2,15 +2,14 @@
 <!-- Mat Menu -->
 
 <app-header></app-header>
+
 <div class="maincontainer">
-
-
-
-  <!--<video autoplay muted loop id="myVideo">
+<!--
+  <video autoplay muted loop id="myVideo">
     <source src="../../../assets/bg.mp4" type="video/mp4">
-  </video>-->
-
-  <button class="category" mat-raised-button color="accent" [matMenuTriggerFor]="travel">Search by Category</button>
+  </video>
+-->
+  <button class="category cato" [matMenuTriggerFor]="travel">Categories <img src="../../../assets/icons8-right-64.png" alt=""> </button>
   <mat-menu #travel="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="SubType">SubType</button>
     <button mat-menu-item [matMenuTriggerFor]="Seasons">Seasons</button>

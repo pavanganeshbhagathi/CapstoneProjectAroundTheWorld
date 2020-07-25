@@ -5,11 +5,21 @@ body {
 }
 
 h2 {
- font-family: cursive;
+ font-family: 'Courier New',
+ Courier,
+ monospace;
+ font-size: 3em;
+ letter-spacing: 4px;
+ font-weight: 500;
 }
 
 h4 {
-  font-family: cursive;
+   font-family: 'Courier New',
+   Courier,
+   monospace;
+   font-size: 2em;
+   letter-spacing: 4px;
+   font-weight: 500;
 }
 
 p {
@@ -19,9 +29,17 @@ p {
   text-align: center;
 }
 
-.slider {
+.slider1 {
   width: 1110px;
   height: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.slider2 {
+  width: 1000px;
+  height: 250px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 0;
@@ -41,14 +59,16 @@ body {
 }
 
 .site-title .site-background {
-  padding-top: 10rem;
+  padding-top: 6.5rem;
   text-align: center;
   color: var(--white);
+
 }
 
 .site-title h1,
 h3 {
   margin: .3rem;
+
 }
 
 
@@ -92,19 +112,4 @@ h3 {
 
 .btw {
   padding: 10px;
-}
-
-mat-icon {
-  cursor: pointer;
-}
-
-
-mat-card-header mat-card-title {
-
-  font-family: 'Cookie',
-  cursive;
-  font-size: 2.5em;
-  color: rgb(0, 0, 0);
-  letter-spacing: 4px;
-  margin-top: 3.2px;
 }
