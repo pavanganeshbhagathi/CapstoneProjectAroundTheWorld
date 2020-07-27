@@ -25,12 +25,12 @@
 }
 
 button:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(68, 68, 68);
 }
 
 button{
-  background-color: rgb(240, 158, 110);
-  color: rgb(19, 38, 43);
+  background-color: rgb(125, 168, 5);
+  color: rgb(0, 0, 0);
    float: left;
    width: 150px;
    height: 40px;
@@ -40,9 +40,6 @@ button{
    font-size: 20px;
 }
 
-.cato{
-  border-radius: 15%;
-}
 img {
   height: 25px;
   width: 25px;

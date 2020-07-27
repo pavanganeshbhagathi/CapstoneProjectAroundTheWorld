@@ -55,11 +55,6 @@ ngb-carousel {
   width: 1200px;
 }
 
-.row {
-  margin-top: 1.3px;
-  margin-left: -60px;
-}
-
 .login-image {
   height: 90px;
   width: 100px;
@@ -140,40 +135,6 @@ P{
   color: var(--secondary-color);
   max-width: 70rem;
   margin: auto;
-}
-
-.header-image {
-  width: 30%;
-  height: 90%;
-  animation: image-float 120s;
-  /*animation: image-float 140s infinite;*/
-}
-
-@keyframes image-float {
-  0% {
-    transform: translateZ(40rem);
-    opacity: 1;
-  }
-
-  40% {
-    transform: translateZ(-500rem) translateX(150rem);
-    opacity: 0.8;
-  }
-
-  70% {
-    transform: translateZ(-1500rem) translateX(800rem);
-    opacity: 0.6;
-  }
-
-  80% {
-    transform: translateZ(-50rem) translateX(100rem);
-    opacity: 0.8;
-  }
-
-  100% {
-    transform: translateZ(40rem);
-    opacity: 1;
-  }
 }
 
 

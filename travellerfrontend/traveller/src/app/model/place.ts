@@ -12,9 +12,9 @@ export interface Place {
     // tslint:disable-next-line:ban-types
   placeSeason: String;
     // tslint:disable-next-line:ban-types
-  placeLongitude: String;
+  placeLongitude: number;
     // tslint:disable-next-line:ban-types
-  placeLatitude: String;
+  placeLatitude: number;
     // tslint:disable-next-line:ban-types
   placeDescription: String;
   placePackage: number ;
