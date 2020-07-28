@@ -12,14 +12,15 @@ import { WeatherapiService } from './../../service/weatherapi.service';
 export class TripsinglecardComponent implements OnInit {
 
   private id: number;
-  latitude: any ;
-  longitude: any;
+  latitude: number ;
+  longitude: number;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;
   allplaces: Place;
   starClassName = 'star-rating-blank';
   WeatherData: any;
+  name: string;
 
   constructor(private route: ActivatedRoute,
               private weatherapiService: WeatherapiService, private placeserviceService: PlaceserviceService, private router: Router) { }
@@ -64,7 +65,19 @@ toggleBadgeVisibility(): any {
   }
 
   getWeatherData(): any {
-    this.weatherapiService.getWeather('35', '139').subscribe((response) =>
+    this.weatherapiService.getWeatherbyName('hyderabad').subscribe((response) =>
       this.WeatherData = response);
+    console.log(JSON.stringify(this.WeatherData));
+
   }
+
+  setWeatherData(data) {
+    this.WeatherData = data;
+    let sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
+    this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();
+    let current_date = new Date();
+    this.WeatherData.temp_celsius = (this.WeatherData.main.temp - 273.15).toFixed(0);
+    this.WeatherData.feels_like = (this.WeatherData.main.feels_like - 273.15).toFixed(0);
+  }
+
 }

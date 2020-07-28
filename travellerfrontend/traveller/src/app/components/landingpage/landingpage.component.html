@@ -19,8 +19,9 @@
 
 
 <div class="slider1">
-  <ng-image-slider [imagePopup]="true" [animationSpeed]="sliderAnimationSpeed"
+  <ng-image-slider [imagePopup]="false" [animationSpeed]="sliderAnimationSpeed"
     [imageSize]="{width: '250px', height: '250px'}" [images]="imageObject1" [infinite]="sliderInfinite"
+    (imageClick)="yourfunctionName($event)"
     #nav></ng-image-slider>
 </div>
 

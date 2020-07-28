@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-landingpage',
@@ -7,8 +8,6 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./landingpage.component.css'],
 })
 export class LandingpageComponent implements OnInit {
-constructor(){
-}
 
   imageObject1: Array<object> = [
     {
@@ -94,6 +93,18 @@ constructor(){
   sliderAutoSlide = true;
   sliderAnimationSpeed = -5;
 
+
+  constructor(private router: Router, private route: ActivatedRoute) {
+  }
+
   ngOnInit(): void { }
 
+
+  yourfunctionName(subtype: String): any {
+    this.router.navigate([{ outlets: { tripsOutlet: ['tripsallSearchBySubType', subtype] } }], { relativeTo: this.route });
+  }
+
+/*   yourfunctionName(event): void {
+      this.router.navigate(['gallery']);
+  } */
 }
