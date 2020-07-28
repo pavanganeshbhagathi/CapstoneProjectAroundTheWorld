@@ -13,7 +13,7 @@ export class IndiatripsallComponent implements OnInit {
   latitude: number;
   longitude: number;
   // tslint:disable-next-line:ban-types
-  season: String;
+  season: string;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;

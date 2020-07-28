@@ -30,17 +30,19 @@ export class TripsinglecardComponent implements OnInit {
       main: {},
       isDay: true
     };
-    this.getWeatherData();
+
     this.route.paramMap.subscribe(params => {
       this.id = +params.get('id');
       this.viewPlaceDetails(this.id);
     }
     );
+
   }
 
   viewPlaceDetails(id: number): any {
     this.placeserviceService.getplaceById(id).subscribe((response) =>
       this.allplaces = response);
+
   }
 
   viewNextPlace(): any {
@@ -64,14 +66,15 @@ toggleBadgeVisibility(): any {
     this.router.navigate(['trips']);
   }
 
-  getWeatherData(): any {
-    this.weatherapiService.getWeatherbyName('hyderabad').subscribe((response) =>
+  getWeatherData(name: string): any {
+
+    this.weatherapiService.getWeatherbyName(name).subscribe((response) =>
       this.WeatherData = response);
     console.log(JSON.stringify(this.WeatherData));
 
   }
 
-  setWeatherData(data) {
+  setWeatherData(data): void {
     this.WeatherData = data;
     let sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
     this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();

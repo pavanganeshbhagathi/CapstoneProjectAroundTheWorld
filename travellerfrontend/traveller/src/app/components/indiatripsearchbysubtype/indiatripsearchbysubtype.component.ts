@@ -14,7 +14,7 @@ export class IndiatripsearchbysubtypeComponent implements OnInit {
   latitude: number;
   longitude: number;
   // tslint:disable-next-line:ban-types
-  subtype: String;
+  subtype: string;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;
@@ -30,7 +30,7 @@ export class IndiatripsearchbysubtypeComponent implements OnInit {
   }
 
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndSubType(placeType: String, SubType: String): any {
+  getTwoplaceTypeAndSubType(placeType: string, SubType: string): any {
     this.placeserviceService.getTwoplaceTypeAndSubType(placeType, SubType).subscribe((response) =>
       this.allplaces = response);
 

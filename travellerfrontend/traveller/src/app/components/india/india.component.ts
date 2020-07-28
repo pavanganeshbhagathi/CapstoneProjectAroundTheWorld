@@ -16,7 +16,7 @@ export class IndiaComponent implements OnInit {
   ngOnInit(): void {
   }
  // tslint:disable-next-line:ban-types
- openSubtype(subtype: String): any
+ openSubtype(subtype: string): any
  {
   this.snackBar.openFromComponent(OpeningComponent, {
     duration: this.durationInSeconds * 1000,
@@ -27,7 +27,7 @@ export class IndiaComponent implements OnInit {
 
 
 // tslint:disable-next-line:ban-types
-openSeasons(seasontype: String): any
+openSeasons(seasontype: string): any
 {
   this.snackBar.openFromComponent(OpeningComponent, {
     panelClass: ['success'],

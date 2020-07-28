@@ -14,7 +14,7 @@ export class TripsearchingbyseasonComponent implements OnInit {
   latitude: number;
   longitude: number;
   // tslint:disable-next-line:ban-types
-  season: String;
+  season: string;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;
@@ -31,7 +31,7 @@ export class TripsearchingbyseasonComponent implements OnInit {
 
 
   // tslint:disable-next-line:ban-types
-  getplaceBySeason(season: String): any {
+  getplaceBySeason(season: string): any {
     this.placeserviceService.getplaceBySeason(season).subscribe((response) =>
       this.allplaces = response);
   }

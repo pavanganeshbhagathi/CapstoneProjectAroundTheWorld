@@ -30,7 +30,7 @@ export class TripsearchingbysubtypeComponent implements OnInit {
 
 
   // tslint:disable-next-line:ban-types
-  getDetailsBySUbType(subtype: String): any {
+  getDetailsBySUbType(subtype: string): any {
     this.placeserviceService.getplaceSubType(subtype).subscribe((response) =>
       this.allplaces = response);
   }

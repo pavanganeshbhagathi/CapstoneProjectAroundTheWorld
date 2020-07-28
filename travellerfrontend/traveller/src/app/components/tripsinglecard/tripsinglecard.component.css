@@ -17,11 +17,17 @@
     0 1px 1px 0 rgb(243, 242, 242),
     0 1px 3px 0 rgb(243, 241, 241);
 }
-
+.rating {
+  margin-left: 200px;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+}
 .booking {
   height: 40px;
   width: 110px;
+  margin-left: 190px;
 }
+
 
 .card {
   max-width: 1000px;
@@ -30,7 +36,7 @@
  margin-right: 0px;
   margin-bottom: 30px;
   border-radius: 0px;
-  height: 800px;
+  height: 1100px;
 }
 
 .map-place{
@@ -46,13 +52,18 @@ img {
 
 section {
   display: table;
-  margin: 8px;
+  margin: 0px;
+  padding: 0;
+}
+
+.wrap {
+    padding: 0;
 }
 
 .example-label {
   display: table-cell;
   font-size: 14px;
-  margin-left: 8px;
+  margin-left: 0px;
   width: 120px;
 }
 
@@ -62,7 +73,7 @@ section {
 
 .example-button-row button {
   display: table-cell;
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
 .example-flex-container {
@@ -78,7 +89,7 @@ section {
 }
 
 .mat-form-field+.mat-form-field {
-  margin-left: 8px;
+  margin-left: 0px;
 }
 
 a {
@@ -99,10 +110,10 @@ agm-map {
   width: 450px;
 }
 
-mat-card-content
+.outer
 {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 mat-card-actions{
@@ -277,8 +288,6 @@ mat-card-actions{
   border-bottom: 10px solid transparent;
 }
 
-
-
 .inside {
   width: 100%;
   padding: 0.3em 0;
@@ -323,6 +332,7 @@ h2 {
 }
 
 .weather {
+  margin-top: 0px;
   display: flex;
   justify-content: center;
 }

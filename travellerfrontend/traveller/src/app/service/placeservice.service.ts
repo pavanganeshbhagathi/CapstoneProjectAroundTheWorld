@@ -42,7 +42,7 @@ export class PlaceserviceService {
 
 
   // tslint:disable-next-line:ban-types
-  getplaceBySeason(season: String): Observable<any> {
+  getplaceBySeason(season: string): Observable<any> {
     return this.http.get(`${this.url}/retriveBySeason/${season}`).pipe(tap(data =>
       data), catchError(this.errorHandler));
   }
@@ -54,7 +54,7 @@ export class PlaceserviceService {
   }
 
   // tslint:disable-next-line:ban-types
-  getplaceSubType(subtype: String): Observable<any> {
+  getplaceSubType(subtype: string): Observable<any> {
     return this.http.get(`${this.url}/retriveSubplaceType/${subtype}`).pipe(tap(data =>
       data), catchError(this.errorHandler));
   }
@@ -79,26 +79,26 @@ export class PlaceserviceService {
 
 
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndPlaceRating(placetype: String, rating: number): any {
+  getTwoplaceTypeAndPlaceRating(placetype: string, rating: number): any {
     // tslint:disable-next-line:max-line-length
     return this.http.get(`http://localhost:8080/AroundTheWorld/places/placeTypeAndPlaceSubType/PlaceType/${placetype}/PlaceRating/${rating}`).pipe(tap(data =>
       data), catchError(this.errorHandler));
   }
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndSeason(placetype: String, season: String): any {
+  getTwoplaceTypeAndSeason(placetype: string, season: string): any {
     // tslint:disable-next-line:max-line-length
     return this.http.get(`http://localhost:8080/AroundTheWorld/places/placeTypeAndPlaceSubType/PlaceType/${placetype}/PlaceSeason/${season}`).pipe(tap(data =>
       data), catchError(this.errorHandler));
   }
   // tslint:disable-next-line:max-line-length
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndSubType(placetype: String, placeSubType: String): any {
+  getTwoplaceTypeAndSubType(placetype: string, placeSubType: string): any {
     // tslint:disable-next-line:max-line-length
     return this.http.get(`http://localhost:8080/AroundTheWorld/places/placeTypeAndPlaceSubType/PlaceType/${placetype}/placeSubtype/${placeSubType}`).pipe(tap(data =>
       data), catchError(this.errorHandler));
   }
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndBetween(placetype: String, startingValue: number, endingValue: number): any {
+  getTwoplaceTypeAndBetween(placetype: string, startingValue: number, endingValue: number): any {
     // tslint:disable-next-line:max-line-length
     return this.http.get(`http://localhost:8080/AroundTheWorld/places/retrivebetweenPackage/PlaceType/${placetype}/start/${startingValue}/between/end/${endingValue}`).pipe(tap(data =>
       data), catchError(this.errorHandler));

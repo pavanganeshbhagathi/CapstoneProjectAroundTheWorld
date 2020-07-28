@@ -33,7 +33,7 @@ export class WorldtripsearchbybetweenpackComponent implements OnInit {
 
 
   // tslint:disable-next-line:ban-types
-  getplaceBewteenPackage(placeType: String, start: number, end: number): any
+  getplaceBewteenPackage(placeType: string, start: number, end: number): any
   {
 this.placeserviceService.getTwoplaceTypeAndBetween(placeType, start, end).subscribe((response) =>
 this.allplaces = response);

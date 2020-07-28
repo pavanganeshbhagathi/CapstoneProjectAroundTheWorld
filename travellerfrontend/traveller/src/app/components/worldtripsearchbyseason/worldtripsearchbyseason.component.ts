@@ -14,7 +14,7 @@ export class WorldtripsearchbyseasonComponent implements OnInit {
   latitude: number;
   longitude: number;
   // tslint:disable-next-line:ban-types
-  season: String;
+  season: string;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;
@@ -30,7 +30,7 @@ export class WorldtripsearchbyseasonComponent implements OnInit {
   }
 
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndSeason(placeType: String, Season: String): any {
+  getTwoplaceTypeAndSeason(placeType: string, Season: string): any {
     this.placeserviceService.getTwoplaceTypeAndSeason(placeType, Season).subscribe((response) =>
       this.allplaces = response);
 

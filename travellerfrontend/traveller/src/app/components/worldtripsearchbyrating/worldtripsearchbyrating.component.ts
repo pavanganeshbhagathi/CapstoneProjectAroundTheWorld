@@ -30,7 +30,7 @@ export class WorldtripsearchbyratingComponent implements OnInit {
   }
 
   // tslint:disable-next-line:ban-types
-  getTwoplaceTypeAndPlaceRating(placeType: String, rating: number): any {
+  getTwoplaceTypeAndPlaceRating(placeType: string, rating: number): any {
     this.placeserviceService.getTwoplaceTypeAndPlaceRating(placeType, rating).subscribe((response) =>
       this.allplaces = response);
 

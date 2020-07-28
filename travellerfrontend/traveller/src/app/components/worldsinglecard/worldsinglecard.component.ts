@@ -13,8 +13,8 @@ export class WorldsinglecardComponent implements OnInit {
 
   private id: number;
 
-  latitude = 51.678418;
-  longitude = 7.809007;
+  latitude:number;
+  longitude:number;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;

@@ -2,21 +2,21 @@ export interface Place {
 
   placeId: number ;
     // tslint:disable-next-line:ban-types
-  placeType: String ;
+  placeType: string ;
   // tslint:disable-next-line:ban-types
-  placeSubtype: String ;
+  placeSubtype: string ;
     // tslint:disable-next-line:ban-types
-  placeName: String;
+  placeName: string;
     // tslint:disable-next-line:ban-types
-  placeImageUrl: String;
+  placeImageUrl: string;
     // tslint:disable-next-line:ban-types
-  placeSeason: String;
+  placeSeason: string;
     // tslint:disable-next-line:ban-types
   placeLongitude: number;
     // tslint:disable-next-line:ban-types
   placeLatitude: number;
     // tslint:disable-next-line:ban-types
-  placeDescription: String;
+  placeDescription: string;
   placePackage: number ;
   rating: number;
 }

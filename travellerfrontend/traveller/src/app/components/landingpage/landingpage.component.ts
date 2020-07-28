@@ -100,7 +100,7 @@ export class LandingpageComponent implements OnInit {
   ngOnInit(): void { }
 
 
-  yourfunctionName(subtype: String): any {
+  yourfunctionName(subtype: string): any {
     this.router.navigate([{ outlets: { tripsOutlet: ['tripsallSearchBySubType', subtype] } }], { relativeTo: this.route });
   }
 
