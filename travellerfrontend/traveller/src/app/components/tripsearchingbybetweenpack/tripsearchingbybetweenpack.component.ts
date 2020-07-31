@@ -48,8 +48,6 @@ export class TripsearchingbybetweenpackComponent implements OnInit {
   }
   onClick(placeId: number): any {
     this.router.navigate(['tripSingleCard', placeId]);
-    // this.router.navigate(['tripSingleCard', placeId]);
-   // this.router.navigate([{ outlets: { tripsOutlet: ['tripSingleCard', placeId] } }], { relativeTo: this.route });
   }
 
 }

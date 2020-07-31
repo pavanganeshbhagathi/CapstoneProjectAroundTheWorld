@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Place } from './../../model/place';
 import { PlaceserviceService } from 'src/app/service/placeservice.service';
+import { WeatherapiService } from './../../service/weatherapi.service';
 
 @Component({
   selector: 'app-worldsinglecard',
@@ -10,18 +11,18 @@ import { PlaceserviceService } from 'src/app/service/placeservice.service';
 })
 export class WorldsinglecardComponent implements OnInit {
 
-
   private id: number;
-
-  latitude:number;
-  longitude:number;
+  latitude: number;
+  longitude: number;
   locationChosen = false;
   hidden = false;
   panelOpenState = false;
   allplaces: Place;
   starClassName = 'star-rating-blank';
+  WeatherData: any;
+  name: string;
 
-  constructor(private route: ActivatedRoute, private placeserviceService: PlaceserviceService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private placeserviceService: PlaceserviceService, private router: Router, private weatherapiService: WeatherapiService) { }
 
   ngOnInit(): any {
     this.route.paramMap.subscribe(params => {
@@ -39,9 +40,7 @@ export class WorldsinglecardComponent implements OnInit {
 
   viewNextPlace(): any {
     this.id = this.id + 1;
-    this.router.navigate(['tripSingleCard', this.id]);
-    // this.router.navigate([{ outlets: { tripsOutlet: ['tripSingleCard', this.id] }}], {relativeTo: this.route});
-    // this.router.navigate([{ outlets: { tripsOutlet: ['tripSingleCard', this.id] } }], { relativeTo: this.route });
+    this.router.navigate(['worldtripSingleCard', this.id]);
   }
 
   backList(): any
@@ -59,7 +58,22 @@ export class WorldsinglecardComponent implements OnInit {
   toggleBadgeVisibility(): any {
     this.hidden = !this.hidden;
   }
+  getWeatherData(name: string): any {
 
+    this.weatherapiService.getWeatherbyName(name).subscribe((response) =>
+      this.WeatherData = response);
+    console.log(JSON.stringify(this.WeatherData));
+
+  }
+
+  setWeatherData(data): void {
+    this.WeatherData = data;
+    let sunsetTime = new Date(this.WeatherData.sys.sunset * 1000);
+    this.WeatherData.sunset_time = sunsetTime.toLocaleTimeString();
+    let current_date = new Date();
+    this.WeatherData.temp_celsius = (this.WeatherData.main.temp - 273.15).toFixed(0);
+    this.WeatherData.feels_like = (this.WeatherData.main.feels_like - 273.15).toFixed(0);
+  }
 
 }
 

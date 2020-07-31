@@ -48,6 +48,7 @@ export class TripsinglecardComponent implements OnInit {
   viewNextPlace(): any {
     this.id = this.id + 1;
     this.router.navigate(['tripSingleCard', this.id]);
+    // this.router.navigate([{ outlets: { tripsOutlet: ['tripSingleCard', this.id] } }], { relativeTo: this.route });
     }
 
 

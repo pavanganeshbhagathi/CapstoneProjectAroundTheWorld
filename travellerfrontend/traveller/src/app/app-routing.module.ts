@@ -35,14 +35,15 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent},
   {path: 'contactus', component: ContactusComponent},
   {path: 'tripSingleCard/:id', component: TripsinglecardComponent },
+  { path: 'indiatripSingleCard/:id', component: IndiasinglecardComponent},
+  { path: 'worldtripSingleCard/:id', component: WorldsinglecardComponent},
   {path: 'trips', component: TripsComponent,
   children: [
     {path: '', component: TripsallComponent, outlet: 'tripsOutlet'},
     { path: 'tripsallSearchBySubType/:subtype', component: TripsearchingbysubtypeComponent, outlet: 'tripsOutlet' },
     { path: 'tripsallSearchBySeason/:season', component: TripsearchingbyseasonComponent, outlet: 'tripsOutlet' },
     { path: 'tripsallSearchByRating/:rating', component: TripsearchingbyratingComponent, outlet: 'tripsOutlet' },
-    { path: 'tripsallSearchByBetweenPack/:start/end/:end', component: TripsearchingbybetweenpackComponent, outlet: 'tripsOutlet' },
-    {path: 'tripSingleCard/:id', component: TripsinglecardComponent, outlet: 'tripsOutlet'}
+    { path: 'tripsallSearchByBetweenPack/:start/end/:end', component: TripsearchingbybetweenpackComponent, outlet: 'tripsOutlet' }
 
   ]},
   {path: 'worldtrips', component: WorldtripsComponent,
@@ -51,8 +52,7 @@ const routes: Routes = [
     { path: 'worldtripSearchBySubType/:subtype', component:  WorldtripsearchbysubtypeComponent , outlet: 'worldtripsOutlet' },
     { path: 'worldtripSearchBySeason/:season', component: WorldtripsearchbyseasonComponent , outlet: 'worldtripsOutlet' },
     { path: 'worldtripSearchByRating/:rating', component: WorldtripsearchbyratingComponent , outlet: 'worldtripsOutlet' },
-    { path: 'worldtripSearchByBetweenPack/:start/end/:end', component: WorldtripsearchbybetweenpackComponent , outlet: 'worldtripsOutlet' },
-    {path: 'worldtripSingleCard/:id', component: WorldsinglecardComponent, outlet: 'worldtripsOutlet' }
+    { path: 'worldtripSearchByBetweenPack/:start/end/:end', component: WorldtripsearchbybetweenpackComponent , outlet: 'worldtripsOutlet' }
   ]
 },
   {path: 'indiatrips', component: IndiaComponent,  children: [
@@ -60,8 +60,7 @@ const routes: Routes = [
     {path: 'indiatripSearchBySubType/:subtype', component: IndiatripsearchbysubtypeComponent , outlet: 'indiatripsOutlet'},
     {path: 'indiatripSearchBySeason/:season', component: IndiatripsearchbyseasonComponent , outlet: 'indiatripsOutlet'},
     {path: 'indiatripSearchByRating/:rating', component: IndiatripsearchbyratingComponent , outlet: 'indiatripsOutlet'},
-    {path: 'indiatripSearchByBetweenPack/:start/end/:end', component: IndiatripsearchbybetweenpackComponent, outlet: 'indiatripsOutlet'},
-    {path: 'indiatripSingleCard/:id', component: IndiasinglecardComponent, outlet: 'indiatripsOutlet'}
+    {path: 'indiatripSearchByBetweenPack/:start/end/:end', component: IndiatripsearchbybetweenpackComponent, outlet: 'indiatripsOutlet'}
   ]},
 ];
 //

@@ -31,9 +31,7 @@ export class WorldtripsallComponent implements OnInit {
   }
 
   onClick(placeId: number): any {
-    // this.router.navigate(['wolrdtripSingleCard', placeId]);
-  //  this.router.navigate([{ outlets: { worldtripsOutlet: ['worldtripSingleCard', placeId] } }], { relativeTo: this.route });
-    this.router.navigate(['tripSingleCard', placeId]);
+      this.router.navigate(['worldtripSingleCard', placeId]);
 }
 
 

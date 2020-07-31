@@ -1,44 +1,46 @@
 
- /*New Botton with style*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
- @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.horizontalscrollbar {
+  width: 100%;
+  overflow-x: hidden;
+}
 
-.login{
+.login {
   margin-left: 15px;
 }
 
- #container:hover .blue {
-   transform: translateX(200px) translateY(-35px);
- }
+#container:hover .blue {
+  transform: translateX(200px) translateY(-35px);
+}
 
- #container:hover .darkBlue {
-   transform: translateX(220px) translateY(22px);
- }
+#container:hover .darkBlue {
+  transform: translateX(220px) translateY(22px);
+}
 
- .button {
-   transform: translateY(-92px);
-   cursor: pointer;
- }
+.button {
+  transform: translateY(-92px);
+  cursor: pointer;
+}
 
- .blue {
-   transform: translateX(171px) translateY(-35px);
-   transition: all 0.5s ease-in-out;
- }
+.blue {
+  transform: translateX(171px) translateY(-35px);
+  transition: all 0.5s ease-in-out;
+}
 
- .darkBlue {
-   transform: translateX(174px) translateY(22px);
-   transition: all 0.75s ease-in-out;
- }
+.darkBlue {
+  transform: translateX(174px) translateY(22px);
+  transition: all 0.75s ease-in-out;
+}
 
- .text {
-   position: absolute;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: white;
-   font-size: 1.2em;
-   font-weight: bold;
-   transform: translateX(15px) translateY(18px);
- }
-  /*New Botton with style*/
+.text {
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  transform: translateX(15px) translateY(18px);
+}
 
 .around {
   margin-top: -60px;
@@ -90,8 +92,8 @@ h2 {
 
 h4 {
   font-family: 'Courier New',
-  Courier,
-  monospace;
+    Courier,
+    monospace;
   font-size: 2em;
   letter-spacing: 7px;
   color: #074c55;
@@ -99,17 +101,44 @@ h4 {
   margin-left: 25px;
 }
 
-P{
+P {
   font-family: 'Cookie',
-  cursive;
+    cursive;
   font-size: 0.7em;
   letter-spacing: 7px;
   color: #07464e;
 }
 
 .header-image {
-  margin-left: 900px;
+  width: 30%;
+  height: 100%;
+  animation: image-float 150s infinite;
 }
+
+
+@keyframes image-float {
+
+  40% {
+    transform: translateZ(-500rem) translateX(150rem);
+    opacity: 0.8;
+  }
+
+  70% {
+    transform: translateZ(-1500rem) translateX(800rem);
+    opacity: 0.6;
+  }
+
+  80% {
+    transform: translateZ(-50rem) translateX(100rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateZ(40rem);
+    opacity: 1;
+  }
+}
+
 .header {
   width: 100%;
   height: calc(100vh - 7rem);
@@ -176,10 +205,9 @@ h3 {
   border: 1px solid var(--white);
   color: var(--white);
 }
+
 /**/
 
-
-/*Spread List*/
 
 html,
 body {
@@ -194,7 +222,7 @@ body {
   overflow-x: hidden;
 }
 
-.outer{
+.outer {
   display: flex;
   justify-content: center;
 }
@@ -530,7 +558,7 @@ li {
 }
 
 
-section{
+section {
   background-color: #0c8a9b;
 }
 
@@ -548,8 +576,8 @@ section{
 }
 
 .offer-heading {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .minipic {
@@ -558,7 +586,7 @@ section{
 }
 
 
-h8{
+h8 {
   color: #015499;
   color: #ffffff;
   color: #ccd9e4;

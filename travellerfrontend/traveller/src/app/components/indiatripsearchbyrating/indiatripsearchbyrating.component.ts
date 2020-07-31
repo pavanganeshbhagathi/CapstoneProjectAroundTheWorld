@@ -37,10 +37,7 @@ export class IndiatripsearchbyratingComponent implements OnInit {
   }
 
   onClick(placeId: number): any {
-    // this.router.navigate(['wolrdtripSingleCard', placeId]);
-   // this.router.navigate([{ outlets: { indiatripsOutlet: ['indiatripSingleCard', placeId] } }], { relativeTo: this.route });
-    this.router.navigate(['tripSingleCard', placeId]);
-
+    this.router.navigate(['indiatripSingleCard', placeId]);
   }
 
 }

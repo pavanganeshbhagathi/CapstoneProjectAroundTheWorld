@@ -9,7 +9,7 @@
     <source src="../../../assets/bg.mp4" type="video/mp4">
   </video>
 -->
-  <button class="category" [matMenuTriggerFor]="travel">Apply Filters </button>
+    <button mat-raised-button color="accent" [matMenuTriggerFor]="travel">Search by Category</button>
   <mat-menu #travel="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="SubType">SubType</button>
     <button mat-menu-item [matMenuTriggerFor]="Seasons">Seasons</button>

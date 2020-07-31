@@ -44,8 +44,6 @@ export class TripsearchingbysubtypeComponent implements OnInit {
     this.hidden = !this.hidden;
   }
   onClick(placeId: number): any {
-    // this.router.navigate(['tripSingleCard', placeId]);
-   // this.router.navigate([{ outlets: { tripsOutlet: ['tripSingleCard', placeId] } }], { relativeTo: this.route });
     this.router.navigate(['tripSingleCard', placeId]);
   }
 
