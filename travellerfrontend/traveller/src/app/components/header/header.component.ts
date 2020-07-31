@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   }
   singOut(): any
   {
-
+    sessionStorage.clear();
     this.authService.signOut();
 
   }

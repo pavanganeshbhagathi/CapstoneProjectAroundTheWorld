@@ -3,7 +3,6 @@
     <mat-card-header>
       <mat-card-title>{{allplaces.placeName | titlecase}}</mat-card-title>
       <mat-card-subtitle>{{allplaces.placeSubtype}}</mat-card-subtitle>
-
     </mat-card-header>
 
 <div class="map-place">
@@ -34,40 +33,23 @@
 
 <mat-divider></mat-divider>
     <br/>
-      {{allplaces.placeDescription}}
-      <br>
-<br><br><br><br>
+    <p class="desc">
+              {{allplaces.placeDescription}}
+    </p>
 
-
+<br>
     <mat-card-content>
 
       <div class="outer">
             <div class="list-of-buttons">
-              <div>
+              <div id="rating-tag">
                 <span class="rating" matBadge=" {{allplaces.rating}}" matBadgeOverlap="false">Rating</span>
               </div>
+              <div>
+                <span class="price">Rs. {{allplaces.placePackage}} /- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+                    class="booking button button1">Booking</button> </span>
+              </div>
 
-              <div>
-                <section>
-                  <div class="wrap">
-                    <div class="inside">
-                      <span>{{allplaces.placePackage}}</span>
-                      <div class="tie-wrap">
-                        <div class="tie"></div>
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="front">
-                        <span>Price</span>
-                      </div>
-                      <div class="back"></div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div>
-                <button class="booking" mat-raised-button color="accent"> Booking </button>
-              </div>
             </div>
 
             <div class="weather-div">

@@ -4,6 +4,7 @@ import { SocialUser, SocialAuthService, GoogleLoginProvider } from 'angularx-soc
 import { RouterModule, Router, ActivatedRoute } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { LoginFailssnackbarComponent } from 'src/app/snackBar/login-failssnackbar/login-failssnackbar.component';
+import { SessionStorageService, SessionStorage } from 'angular-web-storage';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-loginpage',
@@ -14,6 +15,8 @@ export class LoginpageComponent implements OnInit {
   user: SocialUser;
   durationInSeconds = 2;
   panelOpenState = false;
+  @SessionStorage() sessionValue = `Hello ${+new Date()}`;
+
   constructor(
     private authService: SocialAuthService,
     private router: Router,
@@ -50,6 +53,9 @@ export class LoginpageComponent implements OnInit {
     this.authService.authState.subscribe((user) => {
       this.user = user;
       this.userLogged(this.user);
+      sessionStorage.setItem('UserName', this.user.firstName);
+      sessionStorage.setItem('EmailId', this.user.email);
+      sessionStorage.setItem('PhotoUrl', this.user.photoUrl);
     });
   }
   singIn(): any {

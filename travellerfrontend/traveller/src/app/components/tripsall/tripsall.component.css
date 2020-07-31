@@ -27,6 +27,7 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity: 2;
 }
 ngb-carousel {
   height: 450px;
@@ -63,4 +64,5 @@ ngb-carousel {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.5%;
 }

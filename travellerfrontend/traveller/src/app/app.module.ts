@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AgmCoreModule } from '@agm/core';
 import { SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-login';
 import { GoogleLoginProvider } from 'angularx-social-login';
-
+import { AngularWebStorageModule } from 'angular-web-storage';
 // Material Card
 import {MatCardModule} from '@angular/material/card';
 import {MatBadgeModule} from '@angular/material/badge';
@@ -109,6 +109,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule,
+    AngularWebStorageModule,
     MatCardModule,
     MatBadgeModule,
     MatButtonModule,
